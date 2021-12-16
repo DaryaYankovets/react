@@ -1,0 +1,15 @@
+.myinput {
+    width: 100%;
+    padding: 7px 15px;
+    margin: 7px 0;
+    font-size: 20px;
+    border: 3px solid  #AA96DA;
+}
+
+::-webkit-input-placeholder { 
+    color:    #AA96DA;
+}
+
+input:active {
+    border-color: #AA96DA;
+  }

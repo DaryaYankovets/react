@@ -8,3 +8,22 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+
+.post-enter {
+    transform: translateX(-1400px);
+}
+
+.post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+
+.post-exit {
+    opacity: 1;
+}
+
+.post-exit-active {
+    transform: translateX(1400px);
+    transition: all 500ms ease-in;
+}
+ 

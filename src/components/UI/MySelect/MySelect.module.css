@@ -1,0 +1,8 @@
+.myselect {
+    padding: 5px 15px;
+    margin: 10px 0;
+    min-width: 200px;
+    border: 3px solid #AA96DA;
+    font-size: 20px;
+    color: #AA96DA;
+}

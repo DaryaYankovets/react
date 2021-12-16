@@ -1,7 +1,9 @@
+import MyButton from '../UI/MyButton/MyButton';
 import './PostItem.css';
 
 
 const PostItem = (props) => {
+
     return (
         <div className="post-item">
             <div>
@@ -9,11 +11,13 @@ const PostItem = (props) => {
                     <h3>{props.post.title}</h3>
                 </div>
                 <div>
-                    <p>{props.post.description}</p>
+                    <p>{props.post.body}</p>
                 </div>
             </div>
             <div>
-                <button>Delete</button>
+                <MyButton onClick={() => props.deletePost(props.post)}>
+                    Удалить
+                </MyButton>
             </div>
         </div>
     );
